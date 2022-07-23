@@ -7,6 +7,7 @@ body{
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 nav{
@@ -21,10 +22,21 @@ nav ul{
     background-color: black;
     color: white;
 }
-
 nav ul li{
     padding: 0 12px;
 }
+.links{
+    text-decoration: none;
+    color: white;
+}
+.logo1{
+    text-decoration: none;
+    color: white;
+}
+.links:hover{
+    color: rgb(38, 220, 38);
+}
+
 .brand img{
     width: 44px;
     padding: 0 8px;
@@ -47,7 +59,8 @@ nav ul li{
    width: 70%;
    border-radius: 12px;
    padding: 34px;
-   background-image: url('bg.jpg');
+   background-image: url('bg1.jpg');
+   background-size: cover;
 }
 
 .bottom{
